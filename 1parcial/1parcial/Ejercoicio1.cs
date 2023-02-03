@@ -24,7 +24,12 @@ namespace _1parcial
 
         private void sumarbutton1_Click(object sender, EventArgs e)
         {
+            decimal numero1 = Convert.ToDecimal (numero1textBox1.Text);
+            decimal numero2 = Convert.ToDecimal(numero2textBox2.Text);
 
+            decimal resultado = numero1 + numero2;
+
+            MessageBox.Show("La suma es " + resultado);
         }
     }
 }
